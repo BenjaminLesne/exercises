@@ -1,0 +1,72 @@
+
+
+Test #1
+
+The goal of this test is to display 10 random images by using the Flickity component and Picsum APIs
+
+
+Requirements
+
+    ES6 or higher
+    CSS Preprocessor (Example: Sass, Less, ...)
+    Mobile first / Responsive
+    You can use Vanilla JS components like Axios for ajax, ...
+    Do not use libraries like jQuery, Prototype, ...
+
+
+Ressources
+
+    Flickity
+    Picsum
+    Font Awesome
+    Nunito Font
+
+
+Bonus
+
+    Feel free to add / do whatever it seems wise to you
+
+
+
+Test #2
+
+The goal of this test is to create a basic dashboard which display a data table of users and allow you to access to a user sheet which display advanced infos.
+
+All data are accessible by using JSON Placeholder APIs
+
+User Data table infos to display :
+
+    Id
+    Username
+    Email
+    Company Name
+
+User sheet infos to display :
+
+    All user infos
+    User Posts
+    User Todos
+    User Albums
+
+
+Requirements
+
+    Vue.js / Nuxt (SSR)
+    CSS Preprocessor (Example: Sass, Less, ...)
+    You can use Vue.js components, a UI Kit, ... (Choose wisely)
+
+
+Ressources
+
+    NUXT
+    JSON Placeholder
+    Font Awesome
+    Nunito Font
+
+
+Bonus
+
+    In the user view, display comments of User Posts
+    Feel free to add / do whatever it seems wise to you
+
+

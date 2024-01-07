@@ -1,0 +1,214 @@
+Q1
+what's the difference between == and === ?
+
+Q2
+what's the ternary operator ? Give an example
+
+Q3
+What's the value of 1 + "1"?
+
+What's the value of 1 - "1"?
+
+Q4
+what's the result of the following code:
+
+"Dammit I'm mad".split("").reverse().join("");
+
+Q5
+In ES6, what's the difference between let and var when you declare a variable?
+
+Q6
+What is an anonymous function ?
+
+What's the most common use case for anonymouse functions?
+
+Q7
+Write a loop which iterates 100 times and write "fizz" if current index is a mutliple of 3, "buzz" if current index is a multiple of 5 and "fizzbuzz" if current index is a mutliple of 3 and 5
+
+Q8
+Which of the following statements doesn't display "3"?
+
+1. alert(Math.max(-4, 3));
+2. var i = 3; alert(i++);
+3. alert(parseInt("3"));
+4. alert(Math.round(2.9));
+5. alert(Math.floor(2.9));
+
+Q9
+What is the equivalent of "v.prop" (only on valid answer):
+
+1. v[prop]
+2. v["prop"]
+3. v.getProp()
+4. None of previous answers
+
+Q10
+Having the following code:
+
+var foo = [];
+foo.push(1);
+foo.push(2);
+
+what's the value of foo.length?
+
+And after the following change, what's the value of foo.length?
+
+foo[5] = 3
+
+Q11
+Which of the following choices are valid variable names in ES6:
+
+1. var
+2. 2a
+3. NaN
+4. $b
+5. default
+
+Q12
+Having the following function:
+
+function Person() {
+console.log("I'm human")
+}
+
+what's the difference between: - var person = Person(); - var person = new Person();
+
+Q13
+What's the purpose of Function.prototype.bind?
+
+Q14
+Having the following ES6 code:
+
+const foo = {}
+foo.bar = 'bar'
+
+const hello = "hello"
+bar = { hello }
+
+What's the literal value of objects foo and bar?
+
+Q15
+Explain why the following function is not an IIFE (Immediately Invoked Function Expression):
+
+function AmazinCompany() {
+
+}();
+
+what needs to be changed to make it a valid IIFE?
+
+Q16
+Write the code for this to work without error:
+
+[1,2,3,4,5].duplicatior(); // [1,2,3,4,5,1,2,3,4,5]
+
+Q17
+What's going to be displayed in the following alert messages after this code execute:
+
+var foo = "Hello";
+(function() {
+var bar = " World";
+alert(foo + bar);
+})();
+alert(foo + bar);
+
+Q18
+What's the result of the following code:
+["1", "2", "3"].map(parseInt);
+
+Q19
+Write the add() function so that the following code works correctly:
+
+add(2, 5); // 7
+add(2)(5); // 7
+
+********\*\*********TEST REACT BELOW********\*\*********
+Q1
+React has been developed by?
+
+Q2
+What is the state in React?
+1- a persistent storage
+2- an internal data store (object) of a component
+
+Q3
+In react what is used to pass data to a component from outside ?
+
+Q4
+Check the correct answer(s):
+[ ] A child component can send a prop back to the parent component
+[ ] Data binding is unidirectional
+[ ] Props can be updated inside comonent
+[ ] State can be updated inside comonent
+
+Q5
+What is the correct order of component lifeCyle ?
+A- componentWillMount()
+componentDidMount()
+shouldComponentUpdate()
+componentWillReceiveProps()
+componentWillUpdate()
+componentDidUpdate()
+componentWillUnmount()
+
+     B- etc etc
+
+
+Q6
+HOC: - HOC are custom components which wrap another compoonent within it - HOW are simple base components witouts Props which only has a render()
+
+Q7
+Everything in React is a : - Module - Component - Package - Class
+
+Q8
+Ref is used to refer an element / component returned by: - react() - render() - reduce() - refer()
+
+Q9
+Consider the following example:
+
+var Helloword = (props) => {
+return (
+<div>
+Hello World 1
+</div>
+<div>
+Hello World 2
+</div>
+);  
+}
+
+ReactDOM.render(<Helloworld />, mountNode)
+
+What will be the ouput:
+1- Hellow world 1
+2- Hellow world 2
+3- Hellow world 1 Hellow world 2
+4- Error
+
+Q10 How do you access a function fetch() from a h1 element in JSX? - <h1>{fetch()}</h1> - etcetc
+
+Q11
+Which method in a React Component should you override to stop the comonent from updating? - willComponentUpdate - etcetcetc - shouldComponentUpdate
+
+Q12 Which of the following is correct syntaxe for a button click event handle, foo? - <button onclick={this.foo()}> - <button onclick={this.foo}> - <button onClick={this.foo()}> - <button onClick={this.foo}>
+
+Q13 What happens when you can setState() inside render() method? - Stack overflow error - Duplicate key error - Repetitive output appears on the screen - nothing happens
+
+Q14 What happens when the following render() method executes?
+
+render() {
+let langs = ["Ruby", "ES6", "Scala"]
+return (
+<div>
+{langs.map(it => <p>{it}</p>)}
+</div>
+)
+}
+
+      - displays the list of the languages in the array
+      - Error. Cannot use direct JavaScript code in JSX
+      - Displays nothing
+      - Error. Should be replaced with a for...loop for correct output
+
+
+
+Q15 What is the Virtual DOM ? - a DOM virtualized in a container - A way to optimize DOM updates - A DOM managed in the cloud - A way to allow inheritance in the DOM
